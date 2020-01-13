@@ -46,14 +46,14 @@
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="300dp"
                 android:layout_marginBottom="10dp"
-                app:cardCornerRadius="5dp"
+                app:cardCornerRadius="10dp"
                 app:cardElevation="0dp">
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="300dp"
+                    android:layout_height="match_parent"
                     android:src="@drawable/bg_thetre" />
             </androidx.cardview.widget.CardView>
 
@@ -82,7 +82,7 @@
                     android:padding="5dp"
                     android:text="Director : "
                     android:textColor="@color/common_text_color_medium"
-                    android:textSize="12dp"
+                    android:textSize="13sp"
                     android:typeface="monospace" />
 
                 <TextView
@@ -93,7 +93,7 @@
                     android:padding="5dp"
                     android:text=""
                     android:textColor="@color/common_text_color_dark"
-                    android:textSize="12dp"
+                    android:textSize="13sp"
                     android:typeface="monospace" />
             </LinearLayout>
 
@@ -111,7 +111,7 @@
                     android:padding="5dp"
                     android:text="Producer : "
                     android:textColor="@color/common_text_color_medium"
-                    android:textSize="12dp"
+                    android:textSize="13sp"
                     android:typeface="monospace" />
 
                 <TextView
@@ -122,7 +122,7 @@
                     android:padding="5dp"
                     android:text=""
                     android:textColor="@color/common_text_color_dark"
-                    android:textSize="12dp"
+                    android:textSize="13sp"
                     android:typeface="monospace" />
             </LinearLayout>
 
@@ -140,7 +140,7 @@
                     android:padding="5dp"
                     android:text="Release Date : "
                     android:textColor="@color/common_text_color_medium"
-                    android:textSize="12dp"
+                    android:textSize="13sp"
                     android:typeface="monospace" />
 
                 <TextView
@@ -151,7 +151,7 @@
                     android:padding="5dp"
                     android:text=""
                     android:textColor="@color/common_text_color_dark"
-                    android:textSize="12dp"
+                    android:textSize="13sp"
                     android:typeface="monospace" />
             </LinearLayout>
 
@@ -169,9 +169,9 @@
                     android:padding="5dp"
                     android:text="Description"
                     android:textColor="@color/common_text_color_light"
-                    android:textSize="12dp"
+                    android:textSize="13sp"
                     android:textStyle="bold"
-                    android:typeface="serif" />
+                    android:typeface="monospace" />
 
                 <TextView
                     android:id="@+id/tvDescription"
@@ -180,7 +180,7 @@
                     android:padding="5dp"
                     android:text=""
                     android:textColor="@color/common_text_color_dark"
-                    android:textSize="12dp"
+                    android:textSize="13sp"
                     android:typeface="monospace" />
             </LinearLayout>
         </LinearLayout>

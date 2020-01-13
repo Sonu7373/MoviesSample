@@ -13,7 +13,9 @@
         android:roundIcon="@mipmap/app_icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Home.MovieDetailPageActivity"></activity>
+        <activity
+            android:name=".Home.MovieDetailPageActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Home.MovieListingActivity"
             android:screenOrientation="portrait" />
