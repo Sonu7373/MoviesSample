@@ -67,6 +67,7 @@ public class MovieListingActivity extends AppCompatActivity {
 
         callApiForMovies(false);
 
+        //Swipe to refresh
         spRefresh.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
@@ -75,6 +76,7 @@ public class MovieListingActivity extends AppCompatActivity {
             }
         });
 
+        //To handle pagination
         rvMovies.addOnScrollListener(new RecyclerView.OnScrollListener() {
             @Override
             public void onScrolled(@NonNull RecyclerView recyclerView, int dx, int dy) {
@@ -181,6 +183,10 @@ public class MovieListingActivity extends AppCompatActivity {
         }
     }
 
+    /**
+     * setting the adapter
+     * @param refreshAdapter
+     */
     private void setAdapter(boolean refreshAdapter) {
         if (refreshAdapter) {
             new Handler().postDelayed(new Runnable() {

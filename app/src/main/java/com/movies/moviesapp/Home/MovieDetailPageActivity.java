@@ -32,6 +32,9 @@ public class MovieDetailPageActivity extends AppCompatActivity {
         initializeFields();
     }
 
+    /**
+     * To initialize fields
+     */
     private void initializeFields() {
         tvMovieName = findViewById(R.id.tvMovieName);
         tvDirectorName = findViewById(R.id.tvDirectorName);
@@ -51,6 +54,9 @@ public class MovieDetailPageActivity extends AppCompatActivity {
         //callApiToGetMovieDetails();
     }
 
+    /**
+     * Adding click events
+     */
     private void setListeners() {
         rlBack.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -60,6 +66,10 @@ public class MovieDetailPageActivity extends AppCompatActivity {
         });
     }
 
+    /**
+     * Setting movie details
+     * @param movieModal
+     */
     private void setMoviesInfo(MovieModal movieModal) {
         if (movieModal != null) {
             tvMovieName.setText(movieModal.getTitle());
