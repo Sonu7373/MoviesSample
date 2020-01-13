@@ -184,7 +184,7 @@ public class MovieListingActivity extends AppCompatActivity {
     }
 
     /**
-     * setting the adapter
+     * setting the adapter with data
      * @param refreshAdapter
      */
     private void setAdapter(boolean refreshAdapter) {

@@ -6,6 +6,9 @@ import com.google.gson.annotations.SerializedName;
 import java.io.Serializable;
 import java.util.List;
 
+/**
+ * Modal class for each movie
+ */
 public class MovieModal implements Serializable {
 
     @SerializedName("title")

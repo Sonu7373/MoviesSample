@@ -43,7 +43,7 @@ public class SplashScreenActivity extends AppCompatActivity {
         }, 2000);
     }
 
-    // To start the app
+    // Go to dashboard
     private void startApp() {
         Intent intent = new Intent(context, MovieListingActivity.class);
         startActivity(intent);
