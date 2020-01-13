@@ -10,6 +10,9 @@ import okhttp3.Response;
 import okhttp3.ResponseBody;
 import okio.Buffer;
 
+/**
+ * To log the api calls request and response
+ */
 class LoggingInterceptor implements Interceptor {
 
     @Override
